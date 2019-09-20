@@ -4,8 +4,8 @@ import time
 
 def bot_login():
 	print "Loggin in..."
-	r = praw.Reddit(username = config.username,
-			password = config.password,
+	r = praw.Reddit(username = kalimeralar_aq,
+			password = 13ozkan@13,
 			client_id = config.client_id,
 			client_secret = config.client_secret,
 			user_agent = "busterronitest's dog comment responder v0.1")
